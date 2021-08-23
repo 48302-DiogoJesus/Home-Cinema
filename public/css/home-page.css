@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@600;900&display=swap');
+
+* {
+    font-family: 'Encode Sans';
+    color: green;
+}
+
+body {
+    background-color: black;
+    color: green;
+}
+
+p {
+    margin-left: 35px;
+}
+
+li {
+    margin: 5px;
+    font-size: small;
+}
+
+button {
+    display: block;
+    margin: 13px;
+    border-radius: 4px;
+    background-color: black;
+    border-color: green;
+    border-style:solid;
+    padding: 10px;
+}
+
+input {
+    background-color: black;
+    border-style: dotted;
+    border-color: green;
+    width: 50px;
+    margin-left: 30px;
+    margin-right: 10px;
+    text-align: center;
+    margin-top: 13px;
+}
+
+button:hover {
+    background-color: green;
+    border-color: black;
+    color:black;
+    font-weight: bolder;
+}
+
+ol {
+    margin-bottom: 25px;
+}
+
+.fbcont {
+    display: flex;
+    flex-direction: column;
+}
+
+.choose-movie-box {
+    width: 60%;
+}
+
+.check-con-button {
+    margin: 20px 0;
+}
+
+.movie-control-buttons {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+
+.inner-controls {
+    width: 40%;
+}
+
+.watch-button {
+    height: 50px;
+}
+
+.remote {
+    margin-top: 25px;
+}
+
+#id-of-movie-label {
+    margin: 10px;
+}
